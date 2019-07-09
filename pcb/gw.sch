@@ -320,36 +320,25 @@ UART_TX
 Text GLabel 3900 3750 2    60   Input ~ 0
 UART_RX
 $Comp
-L TEST_1P W1
-U 1 1 5A591DD5
-P 3900 2450
-F 0 "W1" H 3900 2720 50  0001 C CNN
-F 1 "MOSI" V 3900 2650 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 2450 50  0001 C CNN
-F 3 "" H 4100 2450 50  0000 C CNN
-	1    3900 2450
-	0    1    1    0   
-$EndComp
-$Comp
 L TEST_1P W5
 U 1 1 5A591D37
-P 3900 2550
-F 0 "W5" H 3900 2820 50  0001 C CNN
-F 1 "MISO" V 3900 2750 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 2550 50  0001 C CNN
-F 3 "" H 4100 2550 50  0000 C CNN
-	1    3900 2550
+P 6450 1000
+F 0 "W5" H 6450 1270 50  0001 C CNN
+F 1 "MISO" V 6450 1200 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6650 1000 50  0001 C CNN
+F 3 "" H 6650 1000 50  0000 C CNN
+	1    6450 1000
 	0    1    1    0   
 $EndComp
 $Comp
 L TEST_1P W6
 U 1 1 5A591E2D
-P 3900 2650
-F 0 "W6" H 3900 2920 50  0001 C CNN
-F 1 "SCK" V 3900 2850 50  0000 C CNN
-F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 4100 2650 50  0001 C CNN
-F 3 "" H 4100 2650 50  0000 C CNN
-	1    3900 2650
+P 6450 1100
+F 0 "W6" H 6450 1370 50  0001 C CNN
+F 1 "SCK" V 6450 1300 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6650 1100 50  0001 C CNN
+F 3 "" H 6650 1100 50  0000 C CNN
+	1    6450 1100
 	0    1    1    0   
 $EndComp
 $Comp
@@ -606,4 +595,31 @@ Text Label 4450 2750 0    60   ~ 0
 xtal1
 Text Label 4450 2850 0    60   ~ 0
 xtal2
+Text Label 9400 2300 0    60   ~ 0
+USBD-
+Text Label 9400 2400 0    60   ~ 0
+USBD+
+Text GLabel 3900 2450 2    60   Input ~ 0
+MOSI
+$Comp
+L TEST_1P W1
+U 1 1 5A591DD5
+P 6450 900
+F 0 "W1" H 6450 1170 50  0001 C CNN
+F 1 "MOSI" V 6450 1100 50  0000 C CNN
+F 2 "Measurement_Points:Measurement_Point_Round-SMD-Pad_Small" H 6650 900 50  0001 C CNN
+F 3 "" H 6650 900 50  0000 C CNN
+	1    6450 900 
+	0    1    1    0   
+$EndComp
+Text GLabel 3900 2550 2    60   Input ~ 0
+MISO
+Text GLabel 3900 2650 2    60   Input ~ 0
+SCK
+Text GLabel 6450 900  0    60   Input ~ 0
+MOSI
+Text GLabel 6450 1000 0    60   Input ~ 0
+MISO
+Text GLabel 6450 1100 0    60   Input ~ 0
+SCK
 $EndSCHEMATC
